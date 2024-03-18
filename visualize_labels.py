@@ -1,5 +1,6 @@
 import cv2
 import os
+import argparse
 
 def main(images_folder, masks_folder, output_folder):
     # Créer le dossier de sortie s'il n'existe pas
