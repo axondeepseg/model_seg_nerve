@@ -1,0 +1,10 @@
+name: nnunet_env
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - pillow
+  - numpy
+  - pip
+  - pip:
+      - nnunetv2
